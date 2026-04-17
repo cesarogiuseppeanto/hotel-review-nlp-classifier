@@ -61,6 +61,5 @@ pickle.dump(sent_model, open("models/sent_model.pkl", "wb"))
 
 import joblib
 
-joblib.dump(model, "model.pkl")
 joblib.dump(vectorizer, "vectorizer.pkl")
 print("\nModelli salvati nella cartella models/")
