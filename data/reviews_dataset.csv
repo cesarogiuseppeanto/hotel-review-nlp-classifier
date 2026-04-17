@@ -1,1 +1,301 @@
-
+id,title,body,department,sentiment
+0,La esperienza,"Purtroppo, la camera era sporca.",Housekeeping,neg
+1,Servizio esperienza,"Purtroppo, servizio ristorante lento e personale scortese.",F&B,neg
+2,Bagno esperienza,"Nel complesso, bagno impeccabile e ordinato.",Housekeeping,pos
+3,Staff esperienza,"La mia esperienza, staff molto gentile.",Reception,pos
+4,Colazione esperienza,"La mia esperienza, colazione ottima e varia.",F&B,pos
+5,Cibo esperienza,"Durante il soggiorno, cibo freddo.",F&B,neg
+6,Personale esperienza,"La mia esperienza, personale disponibile e professionale.",Reception,pos
+7,Check-in esperienza,"Devo dire che, check-in veloce e senza problemi.",Reception,pos
+8,Colazione esperienza,"Devo dire che, colazione ottima e varia.",F&B,pos
+9,Buffet esperienza,"Devo dire che, buffet abbondante.",F&B,pos
+10,Poca esperienza,"Nel complesso, poca disponibilità alla reception.",Reception,neg
+11,Odore esperienza,"Nel complesso, odore sgradevole in bagno e polvere ovunque nella stanza.",Housekeeping,neg
+12,Staff esperienza,"La mia esperienza, staff molto gentile e check-in veloce e senza problemi.",Reception,pos
+13,Colazione esperienza,"La mia esperienza, colazione ottima e varia.",F&B,pos
+14,Odore esperienza,"La mia esperienza, odore sgradevole in bagno.",Housekeeping,neg
+15,Check-in esperienza,"Devo dire che, check-in veloce e senza problemi e lenzuola fresche e profumate.",Reception,pos
+16,Personale esperienza,"Devo dire che, personale disponibile e professionale.",Reception,pos
+17,Check-in esperienza,"Nel complesso, check-in molto lento.",Reception,neg
+18,Personale esperienza,"Devo dire che, personale disponibile e professionale.",Reception,pos
+19,Personale esperienza,"Devo dire che, personale scortese.",Reception,neg
+20,Check-in esperienza,"Devo dire che, check-in molto lento.",Reception,neg
+21,Poca esperienza,"La mia esperienza, poca disponibilità alla reception.",Reception,neg
+22,Cibo esperienza,"La mia esperienza, cibo freddo.",F&B,neg
+23,Cibo esperienza,"Devo dire che, cibo davvero buono.",F&B,pos
+24,Personale esperienza,"Durante il soggiorno, personale disponibile e professionale.",Reception,pos
+25,Poca esperienza,"La mia esperienza, poca disponibilità alla reception e la camera era sporca.",Reception,neg
+26,Staff esperienza,"Devo dire che, staff molto gentile e personale disponibile e professionale.",Reception,pos
+27,Colazione esperienza,"La mia esperienza, colazione ottima e varia.",F&B,pos
+28,Check-in esperienza,"Durante il soggiorno, check-in veloce e senza problemi e staff molto gentile.",Reception,pos
+29,Colazione esperienza,"Durante il soggiorno, colazione scarsa.",F&B,neg
+30,Personale esperienza,"Purtroppo, personale scortese.",Reception,neg
+31,Check-in esperienza,"Durante il soggiorno, check-in molto lento e colazione scarsa.",Reception,neg
+32,Staff esperienza,"Devo dire che, staff molto gentile.",Reception,pos
+33,Staff esperienza,"Nel complesso, staff molto gentile.",Reception,pos
+34,Cibo esperienza,"Durante il soggiorno, cibo freddo.",F&B,neg
+35,Polvere esperienza,"Purtroppo, polvere ovunque nella stanza.",Housekeeping,neg
+36,La esperienza,"Durante il soggiorno, la camera era sporca.",Housekeeping,neg
+37,Staff esperienza,"La mia esperienza, staff molto gentile.",Reception,pos
+38,Personale esperienza,"La mia esperienza, personale disponibile e professionale.",Reception,pos
+39,La esperienza,"Durante il soggiorno, la camera era sporca.",Housekeeping,neg
+40,Odore esperienza,"Durante il soggiorno, odore sgradevole in bagno e odore sgradevole in bagno.",Housekeeping,neg
+41,Personale esperienza,"Nel complesso, personale scortese.",Reception,neg
+42,Staff esperienza,"Devo dire che, staff molto gentile e lenzuola fresche e profumate.",Reception,pos
+43,Cibo esperienza,"Devo dire che, cibo davvero buono.",F&B,pos
+44,Buffet esperienza,"Nel complesso, buffet abbondante.",F&B,pos
+45,Bagno esperienza,"Purtroppo, bagno impeccabile e ordinato.",Housekeeping,pos
+46,Personale esperienza,"Purtroppo, personale scortese.",Reception,neg
+47,Personale esperienza,"Purtroppo, personale scortese.",Reception,neg
+48,Colazione esperienza,"La mia esperienza, colazione scarsa.",F&B,neg
+49,Polvere esperienza,"Devo dire che, polvere ovunque nella stanza.",Housekeeping,neg
+50,La esperienza,"La mia esperienza, la camera era molto pulita e check-in veloce e senza problemi.",Housekeeping,pos
+51,Check-in esperienza,"Devo dire che, check-in molto lento.",Reception,neg
+52,Check-in esperienza,"Purtroppo, check-in molto lento.",Reception,neg
+53,Polvere esperienza,"Purtroppo, polvere ovunque nella stanza.",Housekeeping,neg
+54,Buffet esperienza,"Durante il soggiorno, buffet abbondante.",F&B,pos
+55,Polvere esperienza,"Devo dire che, polvere ovunque nella stanza.",Housekeeping,neg
+56,Personale esperienza,"Nel complesso, personale scortese e colazione scarsa.",Reception,neg
+57,La esperienza,"Nel complesso, la camera era molto pulita.",Housekeeping,pos
+58,Cibo esperienza,"Purtroppo, cibo freddo.",F&B,neg
+59,Cibo esperienza,"Durante il soggiorno, cibo freddo e polvere ovunque nella stanza.",F&B,neg
+60,Cibo esperienza,"La mia esperienza, cibo freddo.",F&B,neg
+61,Check-in esperienza,"Purtroppo, check-in molto lento.",Reception,neg
+62,La esperienza,"Devo dire che, la camera era molto pulita.",Housekeeping,pos
+63,La esperienza,"Durante il soggiorno, la camera era molto pulita.",Housekeeping,pos
+64,Personale esperienza,"La mia esperienza, personale disponibile e professionale.",Reception,pos
+65,La esperienza,"Purtroppo, la camera era molto pulita.",Housekeeping,pos
+66,La esperienza,"Purtroppo, la camera era sporca.",Housekeeping,neg
+67,La esperienza,"Nel complesso, la camera era sporca.",Housekeeping,neg
+68,Servizio esperienza,"Devo dire che, servizio ristorante lento e colazione scarsa.",F&B,neg
+69,Polvere esperienza,"Purtroppo, polvere ovunque nella stanza.",Housekeeping,neg
+70,Polvere esperienza,"Purtroppo, polvere ovunque nella stanza.",Housekeeping,neg
+71,La esperienza,"Nel complesso, la camera era molto pulita.",Housekeeping,pos
+72,Poca esperienza,"Nel complesso, poca disponibilità alla reception.",Reception,neg
+73,Colazione esperienza,"La mia esperienza, colazione scarsa.",F&B,neg
+74,Personale esperienza,"Purtroppo, personale disponibile e professionale.",Reception,pos
+75,Colazione esperienza,"La mia esperienza, colazione scarsa.",F&B,neg
+76,Cibo esperienza,"La mia esperienza, cibo davvero buono.",F&B,pos
+77,Personale esperienza,"Durante il soggiorno, personale disponibile e professionale e la camera era molto pulita.",Reception,pos
+78,Staff esperienza,"Devo dire che, staff molto gentile e buffet abbondante.",Reception,pos
+79,Bagno esperienza,"Purtroppo, bagno impeccabile e ordinato.",Housekeeping,pos
+80,Colazione esperienza,"La mia esperienza, colazione scarsa.",F&B,neg
+81,Servizio esperienza,"Purtroppo, servizio ristorante lento.",F&B,neg
+82,Colazione esperienza,"Nel complesso, colazione scarsa.",F&B,neg
+83,Check-in esperienza,"La mia esperienza, check-in veloce e senza problemi.",Reception,pos
+84,La esperienza,"Nel complesso, la camera era molto pulita.",Housekeeping,pos
+85,Bagno esperienza,"La mia esperienza, bagno impeccabile e ordinato.",Housekeeping,pos
+86,Buffet esperienza,"Durante il soggiorno, buffet abbondante e la camera era molto pulita.",F&B,pos
+87,Odore esperienza,"La mia esperienza, odore sgradevole in bagno.",Housekeeping,neg
+88,Polvere esperienza,"Nel complesso, polvere ovunque nella stanza.",Housekeeping,neg
+89,La esperienza,"Durante il soggiorno, la camera era sporca.",Housekeeping,neg
+90,Poca esperienza,"Nel complesso, poca disponibilità alla reception.",Reception,neg
+91,Check-in esperienza,"Nel complesso, check-in molto lento.",Reception,neg
+92,Check-in esperienza,"Purtroppo, check-in molto lento.",Reception,neg
+93,Colazione esperienza,"Devo dire che, colazione ottima e varia.",F&B,pos
+94,Cibo esperienza,"Durante il soggiorno, cibo freddo.",F&B,neg
+95,Check-in esperienza,"Nel complesso, check-in veloce e senza problemi e bagno impeccabile e ordinato.",Reception,pos
+96,Check-in esperienza,"Devo dire che, check-in veloce e senza problemi.",Reception,pos
+97,Servizio esperienza,"Devo dire che, servizio ristorante lento.",F&B,neg
+98,Lenzuola esperienza,"Purtroppo, lenzuola fresche e profumate.",Housekeeping,pos
+99,Check-in esperienza,"Purtroppo, check-in molto lento.",Reception,neg
+100,Servizio esperienza,"Nel complesso, servizio ristorante lento.",F&B,neg
+101,Odore esperienza,"Purtroppo, odore sgradevole in bagno.",Housekeeping,neg
+102,Lenzuola esperienza,"Durante il soggiorno, lenzuola fresche e profumate e bagno impeccabile e ordinato.",Housekeeping,pos
+103,Staff esperienza,"La mia esperienza, staff molto gentile.",Reception,pos
+104,Polvere esperienza,"La mia esperienza, polvere ovunque nella stanza.",Housekeeping,neg
+105,Check-in esperienza,"Purtroppo, check-in molto lento.",Reception,neg
+106,Check-in esperienza,"Devo dire che, check-in veloce e senza problemi.",Reception,pos
+107,Personale esperienza,"Purtroppo, personale scortese.",Reception,neg
+108,Colazione esperienza,"Purtroppo, colazione scarsa.",F&B,neg
+109,Servizio esperienza,"Devo dire che, servizio ristorante lento.",F&B,neg
+110,Poca esperienza,"Purtroppo, poca disponibilità alla reception.",Reception,neg
+111,Personale esperienza,"Purtroppo, personale scortese.",Reception,neg
+112,Colazione esperienza,"La mia esperienza, colazione scarsa.",F&B,neg
+113,Polvere esperienza,"Durante il soggiorno, polvere ovunque nella stanza.",Housekeeping,neg
+114,Check-in esperienza,"Devo dire che, check-in veloce e senza problemi e la camera era molto pulita.",Reception,pos
+115,Cibo esperienza,"Durante il soggiorno, cibo davvero buono e check-in veloce e senza problemi.",F&B,pos
+116,Poca esperienza,"Devo dire che, poca disponibilità alla reception.",Reception,neg
+117,Buffet esperienza,"Devo dire che, buffet abbondante e buffet abbondante.",F&B,pos
+118,Bagno esperienza,"Purtroppo, bagno impeccabile e ordinato.",Housekeeping,pos
+119,La esperienza,"Durante il soggiorno, la camera era molto pulita.",Housekeeping,pos
+120,La esperienza,"Nel complesso, la camera era molto pulita.",Housekeeping,pos
+121,Odore esperienza,"Purtroppo, odore sgradevole in bagno.",Housekeeping,neg
+122,Cibo esperienza,"Durante il soggiorno, cibo davvero buono.",F&B,pos
+123,Polvere esperienza,"Durante il soggiorno, polvere ovunque nella stanza.",Housekeeping,neg
+124,Buffet esperienza,"Nel complesso, buffet abbondante e personale disponibile e professionale.",F&B,pos
+125,Bagno esperienza,"Devo dire che, bagno impeccabile e ordinato.",Housekeeping,pos
+126,Cibo esperienza,"La mia esperienza, cibo freddo.",F&B,neg
+127,Odore esperienza,"Purtroppo, odore sgradevole in bagno.",Housekeeping,neg
+128,Bagno esperienza,"Nel complesso, bagno impeccabile e ordinato.",Housekeeping,pos
+129,La esperienza,"Nel complesso, la camera era sporca.",Housekeeping,neg
+130,Bagno esperienza,"Nel complesso, bagno impeccabile e ordinato.",Housekeeping,pos
+131,Polvere esperienza,"Devo dire che, polvere ovunque nella stanza.",Housekeeping,neg
+132,Staff esperienza,"Durante il soggiorno, staff molto gentile.",Reception,pos
+133,Servizio esperienza,"Devo dire che, servizio ristorante lento.",F&B,neg
+134,Polvere esperienza,"Durante il soggiorno, polvere ovunque nella stanza.",Housekeeping,neg
+135,Colazione esperienza,"Durante il soggiorno, colazione scarsa e personale scortese.",F&B,neg
+136,Personale esperienza,"Purtroppo, personale disponibile e professionale.",Reception,pos
+137,Polvere esperienza,"Devo dire che, polvere ovunque nella stanza.",Housekeeping,neg
+138,Odore esperienza,"Durante il soggiorno, odore sgradevole in bagno.",Housekeeping,neg
+139,Polvere esperienza,"Nel complesso, polvere ovunque nella stanza e la camera era sporca.",Housekeeping,neg
+140,La esperienza,"Durante il soggiorno, la camera era sporca.",Housekeeping,neg
+141,Servizio esperienza,"Durante il soggiorno, servizio ristorante lento.",F&B,neg
+142,Colazione esperienza,"La mia esperienza, colazione scarsa.",F&B,neg
+143,Check-in esperienza,"Nel complesso, check-in veloce e senza problemi.",Reception,pos
+144,Lenzuola esperienza,"Durante il soggiorno, lenzuola fresche e profumate.",Housekeeping,pos
+145,Cibo esperienza,"Durante il soggiorno, cibo freddo.",F&B,neg
+146,La esperienza,"La mia esperienza, la camera era molto pulita.",Housekeeping,pos
+147,Odore esperienza,"Durante il soggiorno, odore sgradevole in bagno.",Housekeeping,neg
+148,Personale esperienza,"Nel complesso, personale scortese.",Reception,neg
+149,La esperienza,"Nel complesso, la camera era sporca.",Housekeeping,neg
+150,Cibo esperienza,"Devo dire che, cibo davvero buono.",F&B,pos
+151,Staff esperienza,"La mia esperienza, staff molto gentile.",Reception,pos
+152,Odore esperienza,"La mia esperienza, odore sgradevole in bagno.",Housekeeping,neg
+153,Buffet esperienza,"Durante il soggiorno, buffet abbondante.",F&B,pos
+154,Check-in esperienza,"Durante il soggiorno, check-in molto lento.",Reception,neg
+155,Buffet esperienza,"Durante il soggiorno, buffet abbondante e staff molto gentile.",F&B,pos
+156,Check-in esperienza,"Purtroppo, check-in molto lento.",Reception,neg
+157,Cibo esperienza,"Durante il soggiorno, cibo davvero buono.",F&B,pos
+158,La esperienza,"Durante il soggiorno, la camera era molto pulita.",Housekeeping,pos
+159,Check-in esperienza,"Nel complesso, check-in molto lento.",Reception,neg
+160,Cibo esperienza,"Purtroppo, cibo freddo.",F&B,neg
+161,La esperienza,"Durante il soggiorno, la camera era molto pulita.",Housekeeping,pos
+162,Colazione esperienza,"Nel complesso, colazione scarsa.",F&B,neg
+163,Personale esperienza,"Nel complesso, personale scortese.",Reception,neg
+164,Cibo esperienza,"La mia esperienza, cibo davvero buono.",F&B,pos
+165,Colazione esperienza,"Purtroppo, colazione ottima e varia e personale disponibile e professionale.",F&B,pos
+166,Colazione esperienza,"Nel complesso, colazione scarsa.",F&B,neg
+167,Personale esperienza,"Nel complesso, personale scortese.",Reception,neg
+168,La esperienza,"Purtroppo, la camera era sporca e colazione scarsa.",Housekeeping,neg
+169,Lenzuola esperienza,"La mia esperienza, lenzuola fresche e profumate.",Housekeeping,pos
+170,Bagno esperienza,"Durante il soggiorno, bagno impeccabile e ordinato.",Housekeeping,pos
+171,Bagno esperienza,"Durante il soggiorno, bagno impeccabile e ordinato e cibo davvero buono.",Housekeeping,pos
+172,Cibo esperienza,"La mia esperienza, cibo freddo.",F&B,neg
+173,Check-in esperienza,"Durante il soggiorno, check-in veloce e senza problemi e check-in veloce e senza problemi.",Reception,pos
+174,Personale esperienza,"Durante il soggiorno, personale disponibile e professionale.",Reception,pos
+175,Cibo esperienza,"Purtroppo, cibo freddo.",F&B,neg
+176,Bagno esperienza,"Devo dire che, bagno impeccabile e ordinato.",Housekeeping,pos
+177,Staff esperienza,"Devo dire che, staff molto gentile.",Reception,pos
+178,La esperienza,"Nel complesso, la camera era molto pulita.",Housekeeping,pos
+179,Polvere esperienza,"Nel complesso, polvere ovunque nella stanza.",Housekeeping,neg
+180,La esperienza,"Nel complesso, la camera era sporca e colazione scarsa.",Housekeeping,neg
+181,Cibo esperienza,"Devo dire che, cibo freddo e check-in molto lento.",F&B,neg
+182,Poca esperienza,"Durante il soggiorno, poca disponibilità alla reception.",Reception,neg
+183,Personale esperienza,"Durante il soggiorno, personale disponibile e professionale.",Reception,pos
+184,La esperienza,"Purtroppo, la camera era molto pulita e staff molto gentile.",Housekeeping,pos
+185,Check-in esperienza,"Purtroppo, check-in molto lento.",Reception,neg
+186,Poca esperienza,"Durante il soggiorno, poca disponibilità alla reception.",Reception,neg
+187,Bagno esperienza,"Durante il soggiorno, bagno impeccabile e ordinato.",Housekeeping,pos
+188,Buffet esperienza,"Nel complesso, buffet abbondante.",F&B,pos
+189,La esperienza,"La mia esperienza, la camera era molto pulita e la camera era molto pulita.",Housekeeping,pos
+190,Colazione esperienza,"La mia esperienza, colazione ottima e varia.",F&B,pos
+191,La esperienza,"Devo dire che, la camera era molto pulita e check-in veloce e senza problemi.",Housekeeping,pos
+192,La esperienza,"La mia esperienza, la camera era molto pulita.",Housekeeping,pos
+193,Staff esperienza,"Nel complesso, staff molto gentile.",Reception,pos
+194,Colazione esperienza,"Devo dire che, colazione scarsa.",F&B,neg
+195,Colazione esperienza,"La mia esperienza, colazione scarsa.",F&B,neg
+196,Check-in esperienza,"Devo dire che, check-in veloce e senza problemi.",Reception,pos
+197,Servizio esperienza,"Devo dire che, servizio ristorante lento.",F&B,neg
+198,Check-in esperienza,"Durante il soggiorno, check-in molto lento.",Reception,neg
+199,Cibo esperienza,"Durante il soggiorno, cibo freddo.",F&B,neg
+200,Servizio esperienza,"Purtroppo, servizio ristorante lento.",F&B,neg
+201,La esperienza,"Durante il soggiorno, la camera era molto pulita.",Housekeeping,pos
+202,Odore esperienza,"La mia esperienza, odore sgradevole in bagno.",Housekeeping,neg
+203,La esperienza,"Nel complesso, la camera era sporca e cibo freddo.",Housekeeping,neg
+204,Check-in esperienza,"La mia esperienza, check-in molto lento.",Reception,neg
+205,Poca esperienza,"Devo dire che, poca disponibilità alla reception e servizio ristorante lento.",Reception,neg
+206,Personale esperienza,"Durante il soggiorno, personale scortese.",Reception,neg
+207,Colazione esperienza,"Devo dire che, colazione ottima e varia.",F&B,pos
+208,Polvere esperienza,"Nel complesso, polvere ovunque nella stanza e la camera era sporca.",Housekeeping,neg
+209,Bagno esperienza,"Durante il soggiorno, bagno impeccabile e ordinato e lenzuola fresche e profumate.",Housekeeping,pos
+210,Personale esperienza,"Devo dire che, personale scortese.",Reception,neg
+211,Staff esperienza,"Nel complesso, staff molto gentile.",Reception,pos
+212,Check-in esperienza,"Durante il soggiorno, check-in molto lento.",Reception,neg
+213,Lenzuola esperienza,"Devo dire che, lenzuola fresche e profumate.",Housekeeping,pos
+214,Cibo esperienza,"Nel complesso, cibo freddo.",F&B,neg
+215,La esperienza,"Devo dire che, la camera era molto pulita.",Housekeeping,pos
+216,Cibo esperienza,"Durante il soggiorno, cibo freddo.",F&B,neg
+217,La esperienza,"Nel complesso, la camera era sporca e check-in molto lento.",Housekeeping,neg
+218,Colazione esperienza,"Nel complesso, colazione scarsa e polvere ovunque nella stanza.",F&B,neg
+219,Bagno esperienza,"Nel complesso, bagno impeccabile e ordinato.",Housekeeping,pos
+220,Check-in esperienza,"Nel complesso, check-in molto lento e poca disponibilità alla reception.",Reception,neg
+221,Bagno esperienza,"Nel complesso, bagno impeccabile e ordinato.",Housekeeping,pos
+222,La esperienza,"Devo dire che, la camera era molto pulita.",Housekeeping,pos
+223,Check-in esperienza,"Nel complesso, check-in veloce e senza problemi.",Reception,pos
+224,Odore esperienza,"La mia esperienza, odore sgradevole in bagno.",Housekeeping,neg
+225,Staff esperienza,"Devo dire che, staff molto gentile.",Reception,pos
+226,Check-in esperienza,"Devo dire che, check-in molto lento.",Reception,neg
+227,Buffet esperienza,"Purtroppo, buffet abbondante e la camera era molto pulita.",F&B,pos
+228,Personale esperienza,"Nel complesso, personale scortese e personale scortese.",Reception,neg
+229,Colazione esperienza,"Purtroppo, colazione scarsa.",F&B,neg
+230,Check-in esperienza,"Purtroppo, check-in molto lento.",Reception,neg
+231,Cibo esperienza,"Purtroppo, cibo freddo.",F&B,neg
+232,Polvere esperienza,"La mia esperienza, polvere ovunque nella stanza e la camera era sporca.",Housekeeping,neg
+233,Colazione esperienza,"La mia esperienza, colazione scarsa.",F&B,neg
+234,Personale esperienza,"Durante il soggiorno, personale disponibile e professionale.",Reception,pos
+235,Cibo esperienza,"Nel complesso, cibo freddo.",F&B,neg
+236,Bagno esperienza,"Nel complesso, bagno impeccabile e ordinato e colazione ottima e varia.",Housekeeping,pos
+237,Servizio esperienza,"Purtroppo, servizio ristorante lento.",F&B,neg
+238,Cibo esperienza,"Devo dire che, cibo freddo.",F&B,neg
+239,Odore esperienza,"Nel complesso, odore sgradevole in bagno.",Housekeeping,neg
+240,Bagno esperienza,"Durante il soggiorno, bagno impeccabile e ordinato.",Housekeeping,pos
+241,Cibo esperienza,"Durante il soggiorno, cibo davvero buono e staff molto gentile.",F&B,pos
+242,Bagno esperienza,"La mia esperienza, bagno impeccabile e ordinato e buffet abbondante.",Housekeeping,pos
+243,Check-in esperienza,"Purtroppo, check-in molto lento.",Reception,neg
+244,Servizio esperienza,"Devo dire che, servizio ristorante lento.",F&B,neg
+245,Colazione esperienza,"Nel complesso, colazione ottima e varia.",F&B,pos
+246,Colazione esperienza,"La mia esperienza, colazione scarsa.",F&B,neg
+247,Buffet esperienza,"Purtroppo, buffet abbondante.",F&B,pos
+248,Personale esperienza,"Nel complesso, personale disponibile e professionale.",Reception,pos
+249,Check-in esperienza,"Nel complesso, check-in veloce e senza problemi.",Reception,pos
+250,Lenzuola esperienza,"Nel complesso, lenzuola fresche e profumate e lenzuola fresche e profumate.",Housekeeping,pos
+251,Personale esperienza,"La mia esperienza, personale scortese.",Reception,neg
+252,Staff esperienza,"Durante il soggiorno, staff molto gentile e colazione ottima e varia.",Reception,pos
+253,Check-in esperienza,"Devo dire che, check-in veloce e senza problemi.",Reception,pos
+254,Polvere esperienza,"Nel complesso, polvere ovunque nella stanza.",Housekeeping,neg
+255,Personale esperienza,"La mia esperienza, personale scortese.",Reception,neg
+256,Poca esperienza,"Devo dire che, poca disponibilità alla reception e personale scortese.",Reception,neg
+257,Poca esperienza,"Devo dire che, poca disponibilità alla reception e polvere ovunque nella stanza.",Reception,neg
+258,Buffet esperienza,"La mia esperienza, buffet abbondante.",F&B,pos
+259,Personale esperienza,"Durante il soggiorno, personale disponibile e professionale.",Reception,pos
+260,Odore esperienza,"Devo dire che, odore sgradevole in bagno.",Housekeeping,neg
+261,Colazione esperienza,"Nel complesso, colazione ottima e varia.",F&B,pos
+262,Personale esperienza,"Durante il soggiorno, personale disponibile e professionale.",Reception,pos
+263,Cibo esperienza,"Purtroppo, cibo freddo.",F&B,neg
+264,Colazione esperienza,"Purtroppo, colazione scarsa.",F&B,neg
+265,Odore esperienza,"Durante il soggiorno, odore sgradevole in bagno e cibo freddo.",Housekeeping,neg
+266,Cibo esperienza,"Nel complesso, cibo davvero buono.",F&B,pos
+267,Colazione esperienza,"Durante il soggiorno, colazione scarsa.",F&B,neg
+268,Odore esperienza,"Devo dire che, odore sgradevole in bagno.",Housekeeping,neg
+269,Check-in esperienza,"Nel complesso, check-in veloce e senza problemi.",Reception,pos
+270,Colazione esperienza,"Devo dire che, colazione ottima e varia.",F&B,pos
+271,Cibo esperienza,"Purtroppo, cibo freddo e la camera era sporca.",F&B,neg
+272,Poca esperienza,"Nel complesso, poca disponibilità alla reception.",Reception,neg
+273,Colazione esperienza,"Purtroppo, colazione scarsa.",F&B,neg
+274,Personale esperienza,"Devo dire che, personale disponibile e professionale.",Reception,pos
+275,La esperienza,"Devo dire che, la camera era sporca.",Housekeeping,neg
+276,Check-in esperienza,"Durante il soggiorno, check-in molto lento.",Reception,neg
+277,Poca esperienza,"Nel complesso, poca disponibilità alla reception e polvere ovunque nella stanza.",Reception,neg
+278,Colazione esperienza,"Durante il soggiorno, colazione ottima e varia.",F&B,pos
+279,Colazione esperienza,"La mia esperienza, colazione ottima e varia.",F&B,pos
+280,Poca esperienza,"Devo dire che, poca disponibilità alla reception e odore sgradevole in bagno.",Reception,neg
+281,Cibo esperienza,"Nel complesso, cibo davvero buono e la camera era molto pulita.",F&B,pos
+282,Cibo esperienza,"Nel complesso, cibo davvero buono e staff molto gentile.",F&B,pos
+283,Servizio esperienza,"Purtroppo, servizio ristorante lento.",F&B,neg
+284,Cibo esperienza,"La mia esperienza, cibo davvero buono.",F&B,pos
+285,Cibo esperienza,"Durante il soggiorno, cibo freddo.",F&B,neg
+286,Polvere esperienza,"La mia esperienza, polvere ovunque nella stanza.",Housekeeping,neg
+287,Personale esperienza,"Devo dire che, personale scortese.",Reception,neg
+288,La esperienza,"Nel complesso, la camera era sporca.",Housekeeping,neg
+289,Cibo esperienza,"Purtroppo, cibo davvero buono e la camera era molto pulita.",F&B,pos
+290,Odore esperienza,"Devo dire che, odore sgradevole in bagno.",Housekeeping,neg
+291,Lenzuola esperienza,"Purtroppo, lenzuola fresche e profumate.",Housekeeping,pos
+292,Staff esperienza,"Purtroppo, staff molto gentile e staff molto gentile.",Reception,pos
+293,La esperienza,"Purtroppo, la camera era molto pulita.",Housekeeping,pos
+294,Personale esperienza,"Durante il soggiorno, personale scortese.",Reception,neg
+295,Odore esperienza,"Purtroppo, odore sgradevole in bagno.",Housekeeping,neg
+296,Cibo esperienza,"La mia esperienza, cibo davvero buono e check-in veloce e senza problemi.",F&B,pos
+297,Buffet esperienza,"Devo dire che, buffet abbondante.",F&B,pos
+298,Cibo esperienza,"Nel complesso, cibo davvero buono e lenzuola fresche e profumate.",F&B,pos
+299,Cibo esperienza,"Nel complesso, cibo davvero buono.",F&B,pos
