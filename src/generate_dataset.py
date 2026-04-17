@@ -1,32 +1,68 @@
 import random
 import pandas as pd
 
-# Frasi per ogni reparto
+# Frasi più realistiche (stile recensioni vere)
 departments = {
     "Housekeeping": {
-        "pos": ["camera pulita", "bagno impeccabile", "lenzuola fresche"],
-        "neg": ["camera sporca", "odore sgradevole", "polvere ovunque"]
+        "pos": [
+            "la camera era molto pulita",
+            "bagno impeccabile e ordinato",
+            "lenzuola fresche e profumate"
+        ],
+        "neg": [
+            "la camera era sporca",
+            "odore sgradevole in bagno",
+            "polvere ovunque nella stanza"
+        ]
     },
     "Reception": {
-        "pos": ["staff gentile", "check-in veloce", "personale disponibile"],
-        "neg": ["personale scortese", "check-in lento", "servizio pessimo"]
+        "pos": [
+            "staff molto gentile",
+            "check-in veloce e senza problemi",
+            "personale disponibile e professionale"
+        ],
+        "neg": [
+            "personale scortese",
+            "check-in molto lento",
+            "poca disponibilità alla reception"
+        ]
     },
     "F&B": {
-        "pos": ["colazione ottima", "buffet abbondante", "cibo delizioso"],
-        "neg": ["colazione scarsa", "cibo freddo", "servizio lento"]
+        "pos": [
+            "colazione ottima e varia",
+            "buffet abbondante",
+            "cibo davvero buono"
+        ],
+        "neg": [
+            "colazione scarsa",
+            "cibo freddo",
+            "servizio ristorante lento"
+        ]
     }
 }
 
+# Frasi introduttive per rendere il testo più naturale
+intro_phrases = [
+    "Durante il soggiorno",
+    "Nel complesso",
+    "La mia esperienza",
+    "Devo dire che",
+    "Purtroppo"
+]
+
+
 def generate_review(department, sentiment):
     phrase = random.choice(departments[department][sentiment])
+    intro = random.choice(intro_phrases)
 
-    # aggiunge un po' di varietà
+    # Introduzione di ambiguità (recensioni che parlano di più reparti)
     if random.random() < 0.2:
         extra_dep = random.choice(list(departments.keys()))
-        phrase += " e " + random.choice(departments[extra_dep][sentiment])
+        extra_phrase = random.choice(departments[extra_dep][sentiment])
+        phrase = phrase + " e " + extra_phrase
 
     title = phrase.split()[0].capitalize() + " esperienza"
-    body = f"La mia esperienza è stata: {phrase}."
+    body = f"{intro}, {phrase}."
 
     return title, body
 
@@ -55,4 +91,4 @@ def create_dataset(n=300):
 if __name__ == "__main__":
     df = create_dataset(300)
     df.to_csv("data/reviews_dataset.csv", index=False)
-    print("Dataset creato in data/reviews_dataset.csv")
+    print("Dataset creato con successo!")
