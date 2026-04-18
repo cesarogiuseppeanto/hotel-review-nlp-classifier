@@ -16,17 +16,12 @@ def load_data(path):
 def preprocess_data(df):
     print("Colonne dataset:", df.columns)
 
-    # individua automaticamente la colonna testo
-    if "text" in df.columns:
-        text_col = "text"
-    elif "review" in df.columns:
-        text_col = "review"
-    elif "review_text" in df.columns:
-        text_col = "review_text"
-    else:
-        raise ValueError("❌ Nessuna colonna testo trovata nel dataset")
+    # Combina title + body per ottenere il testo completo
+    df["text_combined"] = df["title"].fillna('') + " " + df["body"].fillna('')
 
-    df["clean_text"] = df[text_col].apply(preprocess)
+    # Preprocessing
+    df["clean_text"] = df["text_combined"].apply(preprocess)
+
     return df
 
 
@@ -69,40 +64,37 @@ def save_models(vectorizer, dep_model, sent_model):
 
 
 def main():
+    # 1. Caricamento dati
     df = load_data("data/reviews_dataset.csv")
 
+    # 2. Preprocessing
     df = preprocess_data(df)
 
-    # individua automaticamente colonne target
-    if "department" in df.columns:
-        DEP_COL = "department"
-    elif "dep" in df.columns:
-        DEP_COL = "dep"
-    else:
-        raise ValueError("❌ Colonna reparto non trovata")
+    # 3. Colonne target (già corrette nel tuo dataset)
+    DEP_COL = "department"
+    SENT_COL = "sentiment"
 
-    if "sentiment" in df.columns:
-        SENT_COL = "sentiment"
-    elif "sent" in df.columns:
-        SENT_COL = "sent"
-    else:
-        raise ValueError("❌ Colonna sentiment non trovata")
-
+    # 4. Split
     train_df, test_df = split_data(df)
 
+    # 5. Vettorizzazione
     vectorizer, X_train_vec, X_test_vec = vectorize_text(
-        train_df["clean_text"], test_df["clean_text"]
+        train_df["clean_text"],
+        test_df["clean_text"]
     )
 
+    # 6. Training
     dep_model, sent_model = train_models(
         X_train_vec,
         train_df[DEP_COL],
         train_df[SENT_COL]
     )
 
+    # 7. Valutazione
     evaluate_model(dep_model, X_test_vec, test_df[DEP_COL], "Reparto")
     evaluate_model(sent_model, X_test_vec, test_df[SENT_COL], "Sentiment")
 
+    # 8. Salvataggio modelli
     save_models(vectorizer, dep_model, sent_model)
 
 
