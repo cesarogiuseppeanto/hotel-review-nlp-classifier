@@ -1,17 +1,22 @@
 import pickle
 from preprocess import preprocess
 
+
 # Caricamento modelli
 vectorizer = pickle.load(open("models/vectorizer.pkl", "rb"))
 dep_model = pickle.load(open("models/dep_model.pkl", "rb"))
 sent_model = pickle.load(open("models/sent_model.pkl", "rb"))
 
-def predict_review(text):
+
+def predict_review(title, body):
+    # Combina come nel training
+    text = (title or "") + " " + (body or "")
+
     # Preprocessing
-    text_clean = preprocess(text)
+    clean_text = preprocess(text)
 
     # Vettorizzazione
-    text_vec = vectorizer.transform([text_clean])
+    text_vec = vectorizer.transform([clean_text])
 
     # Predizioni
     dep_pred = dep_model.predict(text_vec)[0]
@@ -20,10 +25,14 @@ def predict_review(text):
     return dep_pred, sent_pred
 
 
-# test opzionale (NON necessario)
+# Test locale
 if __name__ == "__main__":
-    text = "La camera era pulita e il personale molto gentile"
-    dep, sent = predict_review(text)
-    print("Testo:", text)
-    print("Dipartimento:", dep)
+    title = "Camera sporca"
+    body = "Il bagno era in pessime condizioni e il letto scomodo"
+
+    dep, sent = predict_review(title, body)
+
+    print("Titolo:", title)
+    print("Testo:", body)
+    print("Reparto:", dep)
     print("Sentiment:", sent)
