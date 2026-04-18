@@ -14,6 +14,7 @@ if st.button("Analizza"):
     if text.strip() == "":
         st.warning("Inserisci del testo")
     else:
-        dep, sent = predict_review(text)
+        # usiamo lo stesso testo sia come titolo che corpo
+        dep, sent = predict_review(text, text)
         st.success(f"Reparto: {dep}")
         st.success(f"Sentiment: {sent}")
