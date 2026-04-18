@@ -1,15 +1,21 @@
 import pickle
+import os
 from preprocess import preprocess
 
+# Percorso assoluto della root del progetto
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-# Caricamento modelli
-vectorizer = pickle.load(open("models/vectorizer.pkl", "rb"))
-dep_model = pickle.load(open("models/dep_model.pkl", "rb"))
-sent_model = pickle.load(open("models/sent_model.pkl", "rb"))
+# Percorso cartella modelli
+MODEL_DIR = os.path.join(BASE_DIR, "models")
+
+# Caricamento modelli (robusto)
+vectorizer = pickle.load(open(os.path.join(MODEL_DIR, "vectorizer.pkl"), "rb"))
+dep_model = pickle.load(open(os.path.join(MODEL_DIR, "dep_model.pkl"), "rb"))
+sent_model = pickle.load(open(os.path.join(MODEL_DIR, "sent_model.pkl"), "rb"))
 
 
 def predict_review(title, body):
-    # Combina come nel training
+    # Combina titolo + corpo (come nel training)
     text = (title or "") + " " + (body or "")
 
     # Preprocessing
